@@ -8,7 +8,7 @@ class UuidPrinter:
         result = "uuid::Uuid( "
         for i in range(16):
             result += "%0.2x" % int(self.array[i])
-            if i in [4, 6, 8, 10]:
+            if i in [3, 5, 7, 9]:
                 result += '-'
         result += " )"
         return result
