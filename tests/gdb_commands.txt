@@ -1,0 +1,5 @@
+# hopefully a panic never goes down 100 levels
+up 100
+
+info locals
+quit
